@@ -1,4 +1,4 @@
-#Insurance Claim Fraud Propensity Modelling
+# Insurance Claim Fraud Propensity Modelling
 
 **Machine Learning–Based Fraud Propensity Analysis for Insurance Claims**
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Insurance fraud is a costly problem that drives up premiums and erodes trust. This project builds a **fraud propensity classifier** — a model that assigns a probability of fraud to each insurance claim — using a variety of supervised Machine Learning techniques along with strategies to handle severe class imbalance.
 
@@ -17,7 +17,7 @@ The notebook walks through the complete ML pipeline, from raw data exploration a
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 InsuranceClaim_Fraud_Proepnsity_Modelling/
@@ -52,7 +52,7 @@ InsuranceClaim_Fraud_Proepnsity_Modelling/
 
 ---
 
-## 🚀 Getting Started (Google Colab)
+## Getting Started (Google Colab)
 
 1. Click the **Open in Colab** badge above, *or* upload the notebook manually to [colab.research.google.com](https://colab.research.google.com).
 2. Upload `insurance_claims.csv` to the Colab session storage (or mount Google Drive and place the file there).
@@ -65,7 +65,7 @@ InsuranceClaim_Fraud_Proepnsity_Modelling/
 
 ---
 
-## 🔬 Notebook Walkthrough
+## Notebook Walkthrough
 
 ### 1 · Data Predictors & Target Identification
 Separates `fraud_reported` as the target (`y`) and drops identifier columns (`policy_number`, `incident_date`, `insured_zip`) from the feature matrix (`X`).
@@ -136,7 +136,7 @@ Wrapped in an `ImbPipeline` with `SMOTETomek`, followed by automated F2-score–
 
 ---
 
-## 📈 Key Results (Illustrative)
+## Key Results (Illustrative)
 
 | Model | F1 (Fraud) | ROC-AUC |
 |---|---|---|
@@ -163,7 +163,7 @@ All packages are installed inside the notebook via `!pip install` — no manual 
 
 ---
 
-## 📝 Metrics Glossary
+## Metrics Glossary
 
 | Metric | Why it matters here |
 |---|---|

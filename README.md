@@ -1,4 +1,4 @@
-# 🛡️ Insurance Claim Fraud Propensity Modelling
+#Insurance Claim Fraud Propensity Modelling
 
 **Machine Learning–Based Fraud Propensity Analysis for Insurance Claims**
 
